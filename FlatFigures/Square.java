@@ -12,14 +12,14 @@ public class Square extends FlatFigures{
     public void calculateArea() {
         double areaSquare;
         areaSquare = Math.pow(this.side, 2);
-        System.out.printf("SQUARE AREA = %.2fm²", areaSquare);;
+        System.out.printf("SQUARE AREA = %.2fm²\n", areaSquare);;
     }
 
     @Override
     public void calculatePerimeter(){
         double perimeterSquare;
         perimeterSquare = this.side * 4;
-        System.out.printf("SQUARE PERIMETER = %.2fm", perimeterSquare);
+        System.out.printf("SQUARE PERIMETER = %.2fm\n", perimeterSquare);
     }
 
 }

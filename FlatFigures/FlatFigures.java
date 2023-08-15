@@ -1,7 +1,7 @@
 package FlatFigures;
 
 public abstract class FlatFigures {
-    // Parent Class
+    // Parent Clas      s
     // Attributes
     // Methods
     public abstract void calculateArea();

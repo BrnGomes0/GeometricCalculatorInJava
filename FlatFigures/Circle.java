@@ -19,6 +19,6 @@ public class Circle extends FlatFigures{
     public void calculatePerimeter(){ // 2 * pi * r
         double perimeterCircle;
         perimeterCircle = 2 * this.pi * this.radius;
-        System.out.printf("PERIMETER CIRCLE = %.2fm", perimeterCircle);
+        System.out.printf("PERIMETER CIRCLE = %.2fm\n", perimeterCircle);
     }
 }

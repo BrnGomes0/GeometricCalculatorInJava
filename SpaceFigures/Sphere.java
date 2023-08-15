@@ -16,12 +16,12 @@ public class Sphere extends SpaceFigures {
     public void calculateSpaceArea(){
         double sphereSpaceArea;
         sphereSpaceArea = (4 * this.pi * (Math.pow(this.radius, 2)));
-        System.out.printf("SPACE AREA SHPERE = %.2fm²", sphereSpaceArea);
+        System.out.printf("SPACE AREA SHPERE = %.2fm²\n", sphereSpaceArea);
     }
     @Override
     public void calculateVolume(){
         double shpereVolume;
         shpereVolume = 4/3 * this.pi * (Math.pow(this.radius, 3));
-        System.out.printf("VOLUME SHPERE = %.2fm³", shpereVolume);
+        System.out.printf("VOLUME SHPERE = %.2fm³\n", shpereVolume);
     }
 }

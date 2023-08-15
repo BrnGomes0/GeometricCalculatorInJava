@@ -13,12 +13,12 @@ public class Rectangle extends FlatFigures{
     public void calculateArea() {
         double areaRectangle;
         areaRectangle = this.base * this.side;
-        System.out.printf("AREA RECTANGLE = %.2fm²", areaRectangle);
+        System.out.printf("AREA RECTANGLE = %.2fm²\n", areaRectangle);
     }
     @Override
     public void calculatePerimeter() {
         double perimeterRectangle;
         perimeterRectangle = 2 * this.side + 2 * this.base;
-        System.out.printf("PERIMETER RECTANGLE = %.2fm", perimeterRectangle);
+        System.out.printf("PERIMETER RECTANGLE = %.2fm\n", perimeterRectangle);
     }
 }
